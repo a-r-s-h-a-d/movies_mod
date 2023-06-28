@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "346539490885",
+    "project_id": "moviesmodapp",
+    "storage_bucket": "moviesmodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346539490885:android:d439ba8f83ecf28b1d2d2c",
+        "android_client_info": {
+          "package_name": "com.example.movies_mod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346539490885-i8pm4tgvc96pho89srl786gpo7qrh076.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movies_mod",
+            "certificate_hash": "1373b2a4034a9f5f2c77c3b49cc1d0493a1f3e24"
+          }
+        },
+        {
+          "client_id": "346539490885-sbhgv85qrkp0csruqm0s8bb5e29etv0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ9c2LN11bOBBCY98poeG6IADILMYfb2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346539490885-sbhgv85qrkp0csruqm0s8bb5e29etv0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
