@@ -33,10 +33,10 @@ class ScreenSignIn extends StatelessWidget {
                       opacity: 0.4,
                       child: SizedBox(
                         width: 350.w,
-                        height: 320.h,
+                        height: 360.h,
                         child: GridView.count(
                           crossAxisCount: 4,
-                          childAspectRatio: (80.w / 135.h),
+                          childAspectRatio: (85.w / 140.h),
                           physics: const NeverScrollableScrollPhysics(),
                           children: List.generate(
                             12,
@@ -93,7 +93,7 @@ class ScreenSignIn extends StatelessWidget {
                                       height: 138.h,
                                       width: 93.w,
                                       margin: EdgeInsets.only(
-                                          right: 8.h, bottom: 8.h),
+                                          right: 10.h, bottom: 10.h),
                                     ),
                                   );
                                 }
@@ -106,8 +106,8 @@ class ScreenSignIn extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 133.h,
-                  left: 70.w,
+                  top: 160.h,
+                  left: 55.w,
                   child: Transform.rotate(
                     angle: -0.1,
                     child: Transform.scale(
@@ -120,7 +120,6 @@ class ScreenSignIn extends StatelessWidget {
                 )
               ],
             ),
-            // Container(height: 341.h),
             Login(height: height, width: width)
           ],
         ),
